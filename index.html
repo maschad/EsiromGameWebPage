@@ -175,37 +175,21 @@
     </div>
     <!-- About Section End-->  
 
-    <!-- Contact Section Start -->
+    <!-- Map Section Start -->
     <section id="contact">
       <div class="container">
-        <div class="row">
-            <h2 class="section-title">Love to Hear From You</h2>
-          <div class="col-md-6 wow fadeInUp" data-wow-duration="0.80s">
-            <div class="contact-form">
-              <!-- Form -->
-              <form action="assets/php/send.php" class="contact-form" role="form" method="post">
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="name" placeholder="Name">
-                </div>
-                <div class="col-md-12">
-                  <input type="email" class="form-control" name="EMAIL" placeholder="Email">
-                </div>
-                <div class="col-md-12">
-                  <input type="text" name="subject" class="form-control" placeholder="Subject">
-                </div>
-                <div class="col-md-12">
-                  <textarea class="form-control" placeholder="Message" rows="4"></textarea>
-                </div>
-                <div class="col-md-6">
-                  <button type="submit" id="submit" class="btn btn-common lg">Send</button><div id="success" style="color:#000;"></div>
-                </div>
-              </form>
-            </div>
+        <div class="wow fadeInUp" data-wow-duration="0.80s" data-wow-delay="1s">
+          <div id="map">
+            <script>
+              function initMap() {
+                var mapDiv = document.getElementById('map');
+                var map = new google.maps.Map(mapDiv, {
+                  center: {lat: 44.540, lng: -78.546},
+                  zoom: 8
+                });
+              }
+            </script>
           </div>
-          <div class="col-md-6 wow fadeInUp" data-wow-duration="0.80s" data-wow-delay="1s">
-            <div id="map">
-            </div>
-          </div>            
         </div>
       </div>
     </section>
@@ -266,6 +250,8 @@
     <script src="assets/js/smooth-on-scroll.js"></script>
     <script src="assets/js/smooth-scroll.js"></script>
     <!-- All JS plugin Triggers -->
-    <script src="assets/js/main.js"></script>    
+    <script src="assets/js/main.js"></script>
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
     </body>
 </html>
