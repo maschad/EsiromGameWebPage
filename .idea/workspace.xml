@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d07f272-789a-4a9c-a1ac-690a1df50263" name="Default" comment="update">
+    <list default="true" id="1d07f272-789a-4a9c-a1ac-690a1df50263" name="Default" comment="fixing map">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="engage-1.0.iws" />
@@ -25,24 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="180" column="20" selection-start-line="180" selection-start-column="20" selection-end-line="180" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.19911504">
+              <caret line="185" column="36" selection-start-line="185" selection-start-column="36" selection-end-line="185" selection-end-column="36" />
               <folding>
-                <marker date="1457090298000" expanded="true" signature="1192:1206" placeholder="..." />
-                <marker date="1457090298000" expanded="true" signature="1285:1299" placeholder="..." />
+                <marker date="1457090573000" expanded="true" signature="1192:1206" placeholder="..." />
+                <marker date="1457090573000" expanded="true" signature="1285:1299" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39675516">
-              <caret line="245" column="11" selection-start-line="245" selection-start-column="11" selection-end-line="245" selection-end-column="11" />
+            <state vertical-scroll-proportion="63.75">
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -108,8 +107,8 @@
       <list>
         <option value="$PROJECT_DIR$/assets/less/main.less" />
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -300,7 +299,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457089798751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixing map">
+      <created>1457090363279</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457090363279</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -333,7 +338,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="added ignore" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="fixing map" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing map" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -416,22 +422,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="180" column="20" selection-start-line="180" selection-start-column="20" selection-end-line="180" selection-end-column="20" />
-          <folding>
-            <marker date="1457090298000" expanded="true" signature="1192:1206" placeholder="..." />
-            <marker date="1457090298000" expanded="true" signature="1285:1299" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="63.75">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39675516">
-          <caret line="245" column="11" selection-start-line="245" selection-start-column="11" selection-end-line="245" selection-end-column="11" />
-          <folding />
+        <state vertical-scroll-proportion="0.19911504">
+          <caret line="185" column="36" selection-start-line="185" selection-start-column="36" selection-end-line="185" selection-end-column="36" />
+          <folding>
+            <marker date="1457090573000" expanded="true" signature="1192:1206" placeholder="..." />
+            <marker date="1457090573000" expanded="true" signature="1285:1299" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
